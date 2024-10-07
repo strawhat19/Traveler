@@ -73,6 +73,7 @@
 .m10r { margin-right: 10px; }
 .m100t { margin-top: 100px; }
 .mt-25 { margin-top: -25px; }
+.mh100 { min-height: 100vh; }
 .m35b { margin-bottom: 35px; }
 .p5y15x { padding: 5px 15px; }
 .p5y20x { padding: 5px 20px; }
@@ -84,7 +85,6 @@
 .mb35 { margin-bottom: 35px; }
 .textLeft { text-align: left };
 .mrauto { margin-right: auto; }
-.mh100vh { min-height: 100vh; }
 .w85I { width: 85% !important; }
 .text-left { text-align: left; }
 .whiteBG { background: white; }
@@ -159,6 +159,11 @@
   text-align: center;
   align-items: center !important;
   justify-content: center !important;
+}
+
+.bg {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
 
 .grow { flex-grow: 1; }

@@ -39,7 +39,7 @@ export default function Page({
           </Helmet>
         </HelmetProvider>
         {/* Body */}
-        <body className={`flex`}>
+        <body className={`flex overflowXHidden`}>
             <Theme>
                 {sidebar && <Sidebar style={{ maxWidth: 250 }} />}
                 <main className={`main w100 flex column gap5 spaceBetween alignCenter`}>
